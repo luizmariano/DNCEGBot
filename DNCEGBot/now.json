@@ -1,6 +1,6 @@
 {
 "version": 2,
-"builds": [{ "src": "index.js", "use": "@now/node" }]
-"regions": ["sfo1"]
+"builds": [{ "src": "index.js", "use": "@now/node" }],
+"regions": ["sfo1"],
 "routes": [{ "src": "/new-message", "methods": ["POST"], "dest": "/index.js" }]
 }
